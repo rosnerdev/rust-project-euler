@@ -1,5 +1,5 @@
 // This program's intention is to solve problem #1 of project euler
-fn main() {
+pub fn print_sum_of_multiples() {
     // First we define a variable to store the sum of all the multiples of 3 or 5 below 1000
     let mut sum = 0;
 

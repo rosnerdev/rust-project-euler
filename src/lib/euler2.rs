@@ -1,4 +1,4 @@
-fn main() {
+pub fn print_sum_of_sequence() {
     let mut sequence = vec![0,1];
     
     while sequence[sequence.len()-1] + sequence[sequence.len()-2] < 4_000_000 {
